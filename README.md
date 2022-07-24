@@ -2,7 +2,7 @@
 This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine , use cases with Clean architecture.
 
 
-# Why i should use an Architecture
+## Why i should use an Architecture
 - All architectures have one common goal — to manage the complexity of your application. You may not need to worry about it on a smaller project, but it becomes a lifesaver on larger ones.
 
 > How does Clean Architecture approach the problem?
