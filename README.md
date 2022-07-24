@@ -2,6 +2,9 @@
 This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine , use cases with Clean architecture.
 
 
+
+
+
 # Why i should use an Architecture
 - All architectures have one common goal — to manage the complexity of your application. You may not need to worry about it on a smaller project, but it becomes a lifesaver on larger ones.
 
@@ -28,7 +31,27 @@ This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine 
 - Interface Segregation: It’s better to have many smaller interfaces than a large one, to prevent the class from implementing the methods that it doesn’t need.
 - Dependency Inversion: Components should depend on abstractions rather than concrete implementations. Also higher level modules shouldn’t depend on lower level modules.
 
-Clean Architecture maximizes the use of these principles.
+### Clean Architecture maximizes the use of these principles.
+
+
+## Layers of Clean Architecture
+###  There are different opinions about how many layers Clean Architecture should have. The architecture doesn’t define exact layers but instead lays out the foundation. The idea is that you adapt the number of layers to your needs.
+
+### To keep things simple, you’ll use five layers:
+- Presentation: A layer that interacts with the UI.
+- Use cases: Sometimes called interactors. Defines actions the user can trigger.
+- Domain: Contains the business logic of the app.
+- Data: Abstract definition of all the data sources.
+- Framework: Implements interaction with the Android SDK and provides concrete implementations for the data layer.
+
+<img src="https://user-images.githubusercontent.com/62241386/180656189-dbea8dd8-e89d-413e-ba5a-83206c971ed5.png" width="500" >&nbsp; 
+
+### Green layers depend on Android SDK.
+
+
+## To know Project Structure see this repo which is this readMe file is owned by it. 
+
+
 
 
 
