@@ -25,11 +25,11 @@ This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine 
 
 ## SOLID Principles
 ### Five design principles make software design more understandable, flexible and maintainable. Those principles are:
-- Single Responsibility: Each software component should have only one reason to change – one responsibility.
-- Open-closed: You should be able to extend the behavior of a component, without breaking its usage, or modifying its extensions.
-- Liskov Substitution: If you have a class of one type, and any subclasses of that class, you should be able to represent the base class usage with the subclass, without breaking the app.
-- Interface Segregation: It’s better to have many smaller interfaces than a large one, to prevent the class from implementing the methods that it doesn’t need.
-- Dependency Inversion: Components should depend on abstractions rather than concrete implementations. Also higher level modules shouldn’t depend on lower level modules.
+[x] Single Responsibility: Each software component should have only one reason to change – one responsibility.
+[x] Open-closed: You should be able to extend the behavior of a component, without breaking its usage, or modifying its extensions.
+[x] Liskov Substitution: If you have a class of one type, and any subclasses of that class, you should be able to represent the base class usage with the subclass, without breaking the app.
+[x] Interface Segregation: It’s better to have many smaller interfaces than a large one, to prevent the class from implementing the methods that it doesn’t need.
+[x] Dependency Inversion: Components should depend on abstractions rather than concrete implementations. Also higher level modules shouldn’t depend on lower level modules.
 
 ### Clean Architecture maximizes the use of these principles.
 
