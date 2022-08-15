@@ -17,7 +17,7 @@ This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine 
 - The center circle is the most abstract, and the outer circle is the most concrete. This is called the Abstraction Principle. The Abstraction Principle specifies that   inner circles should contain business logic, and outer circles should contain implementation details.
 - Another principle of Clean Architecture is the Dependency Rule. This rule specifies that each circle can depend only on the nearest inward circle — this is what       makes the architecture work.
 
-### The outer circle represents the concrete mechanisms that are specific to the platform such as networking and database access. Moving inward, each circle is more abstract and higher-level. The center circle is the most abstract and contains business logic, which doesn’t rely on the platform or the framework you’re using.
+##### The outer circle represents the concrete mechanisms that are specific to the platform such as networking and database access. Moving inward, each circle is more abstract and higher-level. The center circle is the most abstract and contains business logic, which doesn’t rely on the platform or the framework you’re using.
 
 ### Additional benefits of using an architecture when structuring app code include :
  - Parts of the code get decoupled, and easier to reuse and test.
