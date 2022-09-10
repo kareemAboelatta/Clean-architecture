@@ -39,7 +39,7 @@ This Project for how to use  MVVM , state flow, Retrofit, dagger hit, coroutine 
 
 ### To keep things simple, you’ll use five layers:
 - Presentation: A layer that interacts with the UI.
-- Use cases: Sometimes called interactors. Defines actions the user can trigger.
+- Use cases: Sometimes called interactors. Defines actions the user can trigger e.g(get Profile data).
 - Domain: Contains the business logic of the app.
 - Data: Abstract definition of all the data sources.
 - Framework: Implements interaction with the Android SDK and provides concrete implementations for the data layer.
