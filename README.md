@@ -1,6 +1,6 @@
 # Clean Architecture Essentials
 
-Welcome to the hub of Clean Architecture and modern Android development practices. This repository serves as a practical guide to implementing MVVM, StateFlow, Retrofit, Dagger-Hilt, and Coroutines within the Clean Architecture framework.
+Welcome to the hub of Clean Architecture and modern Android development practices. This repository serves as a practical guide to implementing MVVM, StateFlow, Retrofit, Dagger-Hilt, and Coroutines within the Clean Architecture.
 
 ## Why Embrace an Architecture?
 
